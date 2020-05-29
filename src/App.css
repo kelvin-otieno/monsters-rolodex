@@ -1,8 +1,19 @@
 .App {
+  background-image: linear-gradient(to right, #63ac67, #272e81);
   text-align: center;
 }
 
-.App-logo {
+.App-header {
+  font-family: Pacifico;
+  font-weight: bolder;
+  font-size: 2vw;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgb(108, 206, 206);
+}
+
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +46,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
