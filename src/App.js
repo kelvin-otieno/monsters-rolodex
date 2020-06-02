@@ -36,24 +36,11 @@ class App extends Component {
     return (
       <div className="App container-fluid">
         <div className="App-header">MONSTERS ROLODEX</div>
-        <div
-          className=""
-          style={{ display: "inline-block", textAlign: "center" }}
-        >
-          <div className="col s2 ">
-            <SearchBox onTextChanged={this.onTextChanged} />
-          </div>
-        </div>
+
+        <SearchBox onTextChanged={this.onTextChanged} />
 
         <div className="row container">
-          {this.state.monsters.map((monster) => (
-            <CardList
-              name={monster.name}
-              email={monster.email}
-              key={monster.id}
-              count={monster.id}
-            />
-          ))}
+          <CardList list={this.state.monsters} />
         </div>
       </div>
     );

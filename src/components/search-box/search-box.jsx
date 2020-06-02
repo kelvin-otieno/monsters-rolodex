@@ -11,13 +11,13 @@ class SearchBox extends Component {
 
   render() {
     return (
-      <div>
+      <div style={{ display: "inline-block" }}>
         <form action="">
           <div className="input-field ">
             <input
               placeholder="search monsters"
               id="monster"
-              type="text"
+              type="search"
               className="white"
               style={{ borderRadius: 5, textAlign: "center" }}
               onChange={(e) => this.props.onTextChanged(e)}
