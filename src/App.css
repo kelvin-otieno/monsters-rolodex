@@ -1,12 +1,12 @@
 .App {
-  background-image: linear-gradient(to right, #63ac67, #272e81);
+  background: linear-gradient(to right, #63ac67, #272e81);
   text-align: center;
 }
 
 .App-header {
-  font-family: Pacifico;
+  font-family: Bigelow Rules;
   font-weight: bolder;
-  font-size: 2vw;
+  font-size: 5vw;
   text-transform: uppercase;
   text-align: center;
   color: rgb(108, 206, 206);

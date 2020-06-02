@@ -10,34 +10,41 @@ class App extends Component {
     this.state = {
       monsters: [],
     };
-    this.onTextChanged = this.onTextChanged.bind(this);
+    this.originalData = [];
+    //this.onTextChanged = this.onTextChanged.bind(this);
   }
 
   componentDidMount() {
     // fetch("https://jsonplaceholder.typicode.com/users")
     //   .then((res) => res.json())
     //   .then((users) => this.setState({ monsters: users }));
-    this.setState({ monsters: users });
+    this.setState(
+      { monsters: users },
+      () => (this.originalData = this.state.monsters)
+    );
   }
 
-  onTextChanged(e) {
+  onTextChanged = (e) => {
+    console.log(this.originalData);
     let searchText = e.target.value;
     searchText = searchText.toLowerCase();
-    let data = users;
+    const monsters = this.originalData;
     const regex = new RegExp("(" + searchText + ")", "g");
-    let filteredData = data.filter((monster) => {
-      let name = monster.name.toLowerCase();
-      return name.match(regex);
-    });
+    const filteredData = monsters.filter(
+      (monster) => monster.name.toLowerCase().match(regex) //instead of using regex, an easier way would be to use .include function;
+    );
     this.setState({ monsters: filteredData });
-  }
+  };
 
   render() {
     return (
       <div className="App container-fluid">
         <div className="App-header">MONSTERS ROLODEX</div>
 
-        <SearchBox onTextChanged={this.onTextChanged} />
+        <SearchBox
+          onTextChanged={this.onTextChanged}
+          placeholder="search monsters"
+        />
 
         <div className="row container">
           <CardList list={this.state.monsters} />
