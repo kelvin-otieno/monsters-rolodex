@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/github.io/monsters-rolodex/static/css/main.0897370d.chunk.css",
+    "main.js": "/github.io/monsters-rolodex/static/js/main.b1ce7005.chunk.js",
+    "main.js.map": "/github.io/monsters-rolodex/static/js/main.b1ce7005.chunk.js.map",
+    "runtime-main.js": "/github.io/monsters-rolodex/static/js/runtime-main.7ae4c3c1.js",
+    "runtime-main.js.map": "/github.io/monsters-rolodex/static/js/runtime-main.7ae4c3c1.js.map",
+    "static/js/2.a3c82928.chunk.js": "/github.io/monsters-rolodex/static/js/2.a3c82928.chunk.js",
+    "static/js/2.a3c82928.chunk.js.map": "/github.io/monsters-rolodex/static/js/2.a3c82928.chunk.js.map",
+    "index.html": "/github.io/monsters-rolodex/index.html",
+    "precache-manifest.cb8f44544a959b28e5f08f0a640fc618.js": "/github.io/monsters-rolodex/precache-manifest.cb8f44544a959b28e5f08f0a640fc618.js",
+    "service-worker.js": "/github.io/monsters-rolodex/service-worker.js",
+    "static/css/main.0897370d.chunk.css.map": "/github.io/monsters-rolodex/static/css/main.0897370d.chunk.css.map",
+    "static/js/2.a3c82928.chunk.js.LICENSE.txt": "/github.io/monsters-rolodex/static/js/2.a3c82928.chunk.js.LICENSE.txt",
+    "static/media/anime1.png": "/github.io/monsters-rolodex/static/media/anime1.e16831b3.png",
+    "static/media/anime10.png": "/github.io/monsters-rolodex/static/media/anime10.cf9af5c7.png",
+    "static/media/anime2.png": "/github.io/monsters-rolodex/static/media/anime2.68aafc09.png",
+    "static/media/anime3.png": "/github.io/monsters-rolodex/static/media/anime3.4e59ef56.png",
+    "static/media/anime4.png": "/github.io/monsters-rolodex/static/media/anime4.8cfe202e.png",
+    "static/media/anime5.png": "/github.io/monsters-rolodex/static/media/anime5.89f22b4c.png",
+    "static/media/anime6.png": "/github.io/monsters-rolodex/static/media/anime6.45a85347.png",
+    "static/media/anime7.png": "/github.io/monsters-rolodex/static/media/anime7.1b97816d.png",
+    "static/media/anime8.png": "/github.io/monsters-rolodex/static/media/anime8.a71d84cd.png",
+    "static/media/anime9.png": "/github.io/monsters-rolodex/static/media/anime9.b2db7d09.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7ae4c3c1.js",
+    "static/js/2.a3c82928.chunk.js",
+    "static/css/main.0897370d.chunk.css",
+    "static/js/main.b1ce7005.chunk.js"
+  ]
+}
